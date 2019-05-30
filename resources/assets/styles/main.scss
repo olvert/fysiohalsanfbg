@@ -7,9 +7,9 @@
  *
  * If using `postcss-import`, use this import instead:
  *
- * @import "tailwindcss/preflight";
+ * @import "tailwindcss/base";
  */
-@tailwind preflight;
+@tailwind base;
 
 /** Import variables */
 @import "common/variables";
