@@ -1,18 +1,37 @@
-/* @import url("https://fonts.googleapis.com/css?family=Poppins|Raleway&display=swap"); */
-
-/* Poppins */
+/* Playfair Display */
 @font-face {
-  font-family: "Poppins";
+  font-family: "Playfair Display";
   font-style: normal;
   font-weight: 400;
-  src: url(../fonts/Poppins/Poppins-Regular.ttf) format("truetype");
+  src: url(../fonts/Playfair_Display/PlayfairDisplay-Regular.ttf) format("truetype");
 }
 
 @font-face {
-  font-family: "Poppins";
+  font-family: "Playfair Display";
   font-style: normal;
   font-weight: 700;
-  src: url(../fonts/Poppins/Poppins-Bold.ttf) format("truetype");
+  src: url(../fonts/Playfair_Display/PlayfairDisplay-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  font-style: italic;
+  font-weight: 700;
+  src: url(../fonts/Playfair_Display/PlayfairDisplay-BoldItalic.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 900;
+  src: url(../fonts/Playfair_Display/PlayfairDisplay-Black.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  font-style: italic;
+  font-weight: 900;
+  src: url(../fonts/Playfair_Display/PlayfairDisplay-BlackItalic.ttf) format("truetype");
 }
 
 /* Raleway */

@@ -1,0 +1,16 @@
+.frontpage {
+  .fh-jumbo {
+    /*
+    height: 45rem;
+    max-height: 85vh;
+    */
+
+    .fh-img {
+      padding-bottom: 56%;
+    }
+
+    .fh-dash {
+      @apply w-16 h-2 bg-blue inline-block;
+    }
+  }
+}

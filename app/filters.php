@@ -89,3 +89,12 @@ add_filter('comments_template', function ($comments_template) {
 
     return $comments_template;
 }, 100);
+
+/**
+ * Allow SVG file uploads
+ * Make sure file has required header: https://wordpress.org/support/topic/sorry-this-file-type-is-not-permitted-for-security-reasons-16/
+ */
+add_filter('upload_mimes', function ($mimes) {
+$mimes['svg'] = 'image/svg+xml';
+return $mimes;
+});
