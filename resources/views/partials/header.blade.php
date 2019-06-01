@@ -1,7 +1,7 @@
 <header class="banner">
-  <div class="bg-blue py-8">
+  <div class="bg-blue py-6">
     <div class="container">
-      <a class="font-poppins tracking-wider text-white no-underline" href="{{ home_url('/') }}">
+      <a class="font-poppins tracking-wider text-xl text-white no-underline" href="{{ home_url('/') }}">
         {{ get_bloginfo('name', 'display') }}
       </a>
       <nav class="nav-primary">
