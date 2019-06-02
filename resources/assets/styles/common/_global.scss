@@ -7,22 +7,18 @@ h6 {
   @apply font-playfair mb-2 leading-tight;
 }
 
+h2 {
+  @apply text-4xl;
+}
+
 p {
-  @apply font-raleway mb-3 leading-normal;
+  @apply font-raleway text-xl tracking-wide leading-relaxed;
 }
 
 a {
-  @apply font-raleway leading-normal;
+  @apply font-raleway leading-relaxed text-blue-light underline;
 }
 
-/*
-a {
-  @apply font-raleway text-primary no-underline border-b border-transparent;
-
-  transition: 0.2s ease;
-
-  &:hover {
-    @apply border-primary;
-  }
+section {
+  @apply mb-32;
 }
-*/

@@ -123,9 +123,11 @@ module.exports = {
       'blue-dark': '#2779bd',
       // 'blue': '#3490dc',
       'blue': '#586994',
-      'blue-light': '#6cb2eb',
+      // 'blue-light': '#6cb2eb',
+      'blue-light': '#759EB8',
       'blue-lighter': '#bcdefa',
-      'blue-lightest': '#eff8ff',
+      // 'blue-lightest': '#eff8ff',
+      'blue-lightest': '#C5D5EA',
     
       'indigo-darkest': '#191e38',
       'indigo-darker': '#2f365f',

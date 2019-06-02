@@ -10,4 +10,8 @@ class FrontPage extends Controller
   public function jumbotron() {
     return get_field('jumbotron');
   }
+
+  public function rehab() {
+    return get_field('rehab');
+  }
 }

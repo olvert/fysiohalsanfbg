@@ -7,5 +7,6 @@
 @section('content')
   @while(have_posts()) @php the_post() @endphp
     @include('partials.frontpage.jumbotron', [$jumbotron])
+    @include('partials.frontpage.rehab', [$rehab])
   @endwhile
 @endsection
