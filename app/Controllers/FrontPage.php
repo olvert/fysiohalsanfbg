@@ -14,4 +14,8 @@ class FrontPage extends Controller
   public function rehab() {
     return get_field('rehab');
   }
+
+  public function treatment() {
+    return get_field('treatment');
+  }
 }
