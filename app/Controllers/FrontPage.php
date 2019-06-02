@@ -18,4 +18,8 @@ class FrontPage extends Controller
   public function treatment() {
     return get_field('treatment');
   }
+
+  public function about() {
+    return get_field('about');
+  }
 }
