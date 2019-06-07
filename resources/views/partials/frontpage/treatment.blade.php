@@ -1,4 +1,4 @@
-<section class="fh-treatment container">
+<section id="behandlingsmetoder" class="fh-treatment container">
   <div class="flex items-center justify-center mb-12">
     <span class="fh-dash-y"></span>
     <h2 class="ml-8">{!! $treatment['heading'] !!}</h2>

@@ -698,6 +698,7 @@ module.exports = {
     */
 
     margin: {
+      '-4': '-1rem',
       'auto': 'auto',
       'px': '1px',
       '0': '0',

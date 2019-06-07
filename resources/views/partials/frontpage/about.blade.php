@@ -1,4 +1,4 @@
-<section class="container fh-about w-full flex">
+<section id="om-mig" class="container fh-about w-full flex">
   <div
     class="fh-img w-2/5 bg-cover bg-center"
     style="background-image: url('{{ $about['image'] }}');">

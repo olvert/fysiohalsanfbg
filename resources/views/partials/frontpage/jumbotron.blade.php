@@ -1,4 +1,4 @@
-<section class="container fh-jumbo w-full flex">
+<section id="start" class="container fh-jumbo w-full flex">
   <div class="w-3/5 flex items-center">
     <div class="pr-12 pb-12">
       <span class="fh-dash-x"></span>
