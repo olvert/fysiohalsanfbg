@@ -11,5 +11,6 @@
     @include('partials.frontpage.treatment', [$treatment])
     @include('partials.separator')
     @include('partials.frontpage.about', [$about])
+    @include('partials.frontpage.caret')
   @endwhile
 @endsection
