@@ -1,11 +1,18 @@
 .banner .nav {
   @apply flex flex-wrap;
-}
 
-.banner .nav a {
-  @apply inline-block px-4 py-2 border-none font-playfair no-underline tracking-wide text-xl text-blue;
+  li {
+    @apply px-4 py-2;
 
-  &:hover {
-    @apply underline;
+    a {
+      @apply inline-block border-none no-underline tracking-wide text-xl text-blue border-solid border-b-4 border-transparent;
+
+      &:hover {
+        /* @apply underline; */
+        @apply border-blue;
+      }
+
+      transition: all 0.3s ease;
+    }
   }
 }
