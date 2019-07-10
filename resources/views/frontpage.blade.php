@@ -12,5 +12,6 @@
     @include('partials.frontpage.about', [$about])
     @include('partials.frontpage.booking', [$booking])
     @include('partials.fullwidth-image', ['img' => $fullwidth_image])
+    @include('partials.frontpage.caret')
   @endwhile
 @endsection
