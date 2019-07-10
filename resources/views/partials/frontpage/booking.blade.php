@@ -1,4 +1,4 @@
-<section id="bokning" class="bg-blue-lightest">
+<section id="bokning" class="bg-blue-lightest mb-0">
   <div class="container pb-8">
     <div class="w-4/5 p-24">
       <div class="flex items-center mb-12">

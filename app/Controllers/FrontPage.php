@@ -26,4 +26,8 @@ class FrontPage extends Controller
   public function booking() {
     return get_field('booking');
   }
+
+  public function fullwidth_image() {
+    return get_field('fullwidth_image');
+  }
 }
