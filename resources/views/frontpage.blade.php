@@ -9,8 +9,7 @@
     @include('partials.frontpage.jumbotron', [$jumbotron])
     @include('partials.frontpage.rehab', [$rehab])
     @include('partials.frontpage.treatment', [$treatment])
-    @include('partials.separator')
     @include('partials.frontpage.about', [$about])
-    @include('partials.frontpage.caret')
+    @include('partials.frontpage.booking', [$booking])
   @endwhile
 @endsection

@@ -22,4 +22,8 @@ class FrontPage extends Controller
   public function about() {
     return get_field('about');
   }
+
+  public function booking() {
+    return get_field('booking');
+  }
 }
