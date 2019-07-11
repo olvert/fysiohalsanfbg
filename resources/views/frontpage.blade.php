@@ -10,7 +10,7 @@
     @include('partials.frontpage.rehab', [$rehab])
     @include('partials.frontpage.treatment', [$treatment])
     @include('partials.frontpage.about', [$about])
-    @include('partials.frontpage.booking', [$booking])
+    @include('partials.frontpage.booking', [$booking, $book_button])
     @include('partials.fullwidth-image', ['img' => $fullwidth_image])
     @include('partials.frontpage.contact', [$contact])
     @include('partials.frontpage.caret')

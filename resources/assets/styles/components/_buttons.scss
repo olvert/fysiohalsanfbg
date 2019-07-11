@@ -3,3 +3,11 @@
 
   transition: 0.2s ease;
 }
+
+.fh-book-button {
+  transition: filter 0.3s ease;
+
+  &:hover {
+    filter: brightness(110%);
+  }
+}

@@ -34,4 +34,8 @@ class FrontPage extends Controller
   public function contact() {
     return get_field('contact');
   }
+
+  public function book_button() {
+    return get_field('book_button', 'option');
+  }
 }
