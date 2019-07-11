@@ -1,4 +1,4 @@
-<section id="bokning" class="bg-blue-lightest my-0">
+<section id="kontakt" class="bg-blue-lightest my-0">
   <div class="container py-24">
     <div class="flex items-center mb-12">
       <span class="fh-dash-y"></span>
