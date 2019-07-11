@@ -12,7 +12,14 @@ use Roots\Sage\Template\BladeProvider;
  */
 add_action('wp_enqueue_scripts', function () {
     wp_enqueue_style('sage/main.css', asset_path('styles/main.css'), false, null);
-    wp_enqueue_script('sage/main.js', asset_path('scripts/main.js'), ['jquery'], null, true);
+
+    if (is_front_page()) {
+        $google_maps = get_field('google_maps', 'option');
+        wp_enqueue_script('vendor/google_maps', "https://maps.googleapis.com/maps/api/js?key={$google_maps['api_key']}", ['jquery'], null, true);
+        wp_enqueue_script('sage/main.js', asset_path('scripts/main.js'), ['jquery', 'vendor/google_maps'], null, true);
+    } else {
+        wp_enqueue_script('sage/main.js', asset_path('scripts/main.js'), ['jquery'], null, true);
+    }
 
     if (is_single() && comments_open() && get_option('thread_comments')) {
         wp_enqueue_script('comment-reply');
@@ -130,3 +137,11 @@ add_action('after_setup_theme', function () {
         return "<?= " . __NAMESPACE__ . "\\asset_path({$asset}); ?>";
     });
 });
+
+
+/**
+ * Setup ACF Option Page
+ */
+acf_add_options_page([
+    'page_title' => 'Globala inställningar'
+]);

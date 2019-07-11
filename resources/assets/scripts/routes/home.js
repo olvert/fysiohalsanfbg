@@ -1,9 +1,13 @@
+import { new_map } from '../util/acfMap';
+import 'jquery';
+
 /* Export */
 export default {
   init() {
     // JavaScript to be fired on the home page
     initAnchorMenu();
     initBackCaret();
+    initAcfMap();
   },
   finalize() {
     // JavaScript to be fired on the home page, after the init JS
@@ -58,4 +62,13 @@ const checkBackCaretVisibility = (scrollPosition) => {
   } else {
     document.getElementById('back-caret').classList.remove('active');
   }
+}
+
+const initAcfMap = () => {
+  $('.acf-map').each(function(){
+
+		// create map
+		new_map( $(this) );
+
+	});
 }

@@ -98,3 +98,12 @@ add_filter('upload_mimes', function ($mimes) {
 $mimes['svg'] = 'image/svg+xml';
 return $mimes;
 });
+
+/**
+ * Allow SVG file uploads
+ */
+add_action('acf/init', function () {
+    $google_maps = get_field('google_maps', 'option');
+    acf_update_setting('google_api_key', $google_maps['api_key']);
+});
+
