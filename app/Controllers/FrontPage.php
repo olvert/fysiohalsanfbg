@@ -30,4 +30,8 @@ class FrontPage extends Controller
   public function fullwidth_image() {
     return get_field('fullwidth_image');
   }
+
+  public function contact() {
+    return get_field('contact');
+  }
 }
