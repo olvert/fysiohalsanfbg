@@ -1,18 +1,59 @@
-.banner .nav {
-  @apply flex flex-wrap;
+/* stylelint-disable no-descending-specificity */
 
-  li {
-    @apply px-4 py-2;
+.banner {
+  .nav {
+    @apply flex flex-wrap;
 
-    a {
-      @apply inline-block border-none no-underline tracking-wide text-xl text-blue border-solid border-b-4 border-transparent;
+    li {
+      @apply px-4 py-2;
 
-      &:hover {
-        /* @apply underline; */
-        @apply border-blue;
+      a {
+        @apply inline-block border-none no-underline tracking-wide text-xl text-blue border-solid border-b-4 border-transparent;
+
+        &:hover {
+          @apply border-blue;
+        }
+
+        transition: all 0.3s ease;
       }
-
-      transition: all 0.3s ease;
     }
+  }
+
+  .mobile-nav {
+    @apply flex flex-col;
+
+    li {
+      @apply px-4 py-2;
+
+      a {
+        @apply inline-block border-none no-underline tracking-wide text-3xl text-blue border-solid border-b-4 border-transparent;
+
+        &:hover {
+          @apply border-blue;
+        }
+
+        transition: all 0.3s ease;
+      }
+    }
+  }
+
+  button {
+    @apply tracking-wide text-xl text-blue border-solid border-b-4 border-transparent outline-none;
+
+    &:hover {
+      @apply border-blue;
+    }
+
+    transition: all 0.3s ease;
+  }
+
+  #mobile-menu {
+    transform: translateX(100%);
+
+    &.active {
+      transform: translateX(0%);
+    }
+
+    transition: all 0.3s ease;
   }
 }
