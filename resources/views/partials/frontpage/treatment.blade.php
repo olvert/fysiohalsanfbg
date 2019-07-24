@@ -1,14 +1,14 @@
-<section id="behandlingsmetoder" class="fh-treatment bg-blue-lightest mb-0 pb-24">
+<section id="behandlingsmetoder" class="fh-treatment bg-blue-lightest mb-0 pb-12 sm:pb-20 lg:pb-24">
   <div class="container">
-    <div class="w-4/5">
-      <div class="flex items-center justify-start mb-12">
+    <div class="w-full lg:w-4/5">
+      <div class="flex items-center justify-start mb-8 sm:mb-12">
         <span class="fh-dash-y"></span>
-        <h2 class="ml-8">{!! $treatment['heading'] !!}</h2>
+        <h2 class="ml-6 sm:ml-8">{!! $treatment['heading'] !!}</h2>
       </div>
 
       <div class="flex flex-col justify-center">
         @foreach ($treatment['blurbs'] as $blurb)
-          <div class="mb-12">
+          <div class="mb-8 sm:mb-12">
             <div class="flex items-center">
               <span class="fh-dash-x-small mr-4"></span>
               <h4 class="mt-1">{!! $blurb['title'] !!}</h4>
