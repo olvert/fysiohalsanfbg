@@ -1,4 +1,4 @@
-<section id="rehab" class="bg-blue-lightest">
+<section id="rehab" class="bg-blue-lightest mb-0 pb-24">
   <div class="container pb-8">
     <div class="w-4/5 py-24">
       <div class="flex items-center mb-12">
