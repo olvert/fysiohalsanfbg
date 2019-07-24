@@ -5,7 +5,15 @@
         <span class="fh-dash-y"></span>
         <h2 class="ml-8">{!! $rehab['heading'] !!}</h2>
       </div>
-      <p>{!! $rehab['text'] !!}</p>
+      
+      <p class="mb-12">{!! $rehab['text'] !!}</p>
+
+      <div class="aspect-ratio-box aspect-ratio-16x9">
+        <div
+          class="aspect-ratio-box-inner bg-center bg-cover"
+          style="background-image: url('{{ $rehab['background_image'] }}');">
+        </div>
+      </div>
     </div>
   </div>
 </section>

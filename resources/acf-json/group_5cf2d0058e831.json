@@ -133,6 +133,30 @@
                     "maxlength": "",
                     "rows": "",
                     "new_lines": "br"
+                },
+                {
+                    "key": "field_5d38872e34405",
+                    "label": "Bakgrundsbild",
+                    "name": "background_image",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "preview_size": "thumbnail",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
                 }
             ]
         },
@@ -228,6 +252,30 @@
                             "new_lines": "br"
                         }
                     ]
+                },
+                {
+                    "key": "field_5d3877b9b5558",
+                    "label": "Bakrgrundsbild",
+                    "name": "background_image",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "preview_size": "thumbnail",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
                 }
             ]
         },
@@ -562,5 +610,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1563979362
+    "modified": 1563985733
 }
