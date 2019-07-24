@@ -1,4 +1,4 @@
-<header class="banner fixed lg:relative bg-white top-0 inset-x-0">
+<header class="banner fixed shadow lg:shadow-none lg:relative bg-white top-0 inset-x-0 z-50">
   <div class="h-24 pt-6 lg:pt-8">
     <div class="container flex justify-between items-center">
       <img class="w-16 lg:w-24 flex-none" src="@asset('images/logotypes/fysiohalsan_main.png')">

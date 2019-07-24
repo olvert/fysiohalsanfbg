@@ -1,6 +1,12 @@
 /* Dash for headers */
 .fh-dash-x {
-  @apply w-16 h-2 bg-blue inline-block;
+  @apply w-12 bg-blue inline-block;
+
+  height: 0.375rem;
+
+  @screen sm {
+    @apply w-16 h-2;
+  }
 }
 
 .fh-dash-x-small {
