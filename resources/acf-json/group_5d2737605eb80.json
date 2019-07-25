@@ -88,6 +88,25 @@
                     "maxlength": ""
                 }
             ]
+        },
+        {
+            "key": "field_5d39a8cb15eb7",
+            "label": "Cookie-policy",
+            "name": "cookie_policy",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "br"
         }
     ],
     "location": [
@@ -107,5 +126,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1562860171
+    "modified": 1564059899
 }

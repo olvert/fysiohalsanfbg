@@ -41,20 +41,6 @@
     }
   }
 
-  button {
-    @apply tracking-wide text-base text-blue border-solid border-b-4 border-transparent outline-none;
-
-    @screen sm {
-      @apply text-xl;
-    }
-
-    &:hover {
-      @apply border-blue;
-    }
-
-    transition: all 0.3s ease;
-  }
-
   #mobile-menu {
     transform: translateX(100%);
 

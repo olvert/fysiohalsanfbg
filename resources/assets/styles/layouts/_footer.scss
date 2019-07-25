@@ -1,0 +1,9 @@
+#cookie-policy {
+  br {
+    @apply hidden;
+
+    @screen sm {
+      @apply inline;
+    }
+  }
+}
