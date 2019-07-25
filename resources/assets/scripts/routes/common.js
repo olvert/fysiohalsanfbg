@@ -1,3 +1,10 @@
+import * as Cookies from 'js-cookie';
+
+// 90 days in milliseconds
+const COOKIE_EXPIRATION_TIME = 1000 * 60 * 60 * 24 * 90;
+
+const COOKIE_NAME = 'ffb-accepted-cookies';
+
 export default {
   init() {
     // JavaScript to be fired on all pages
@@ -5,6 +12,7 @@ export default {
   },
   finalize() {
     // JavaScript to be fired on all pages, after page specific JS is fired
+    initCookiePolicy();
   },
 };
 
@@ -31,3 +39,27 @@ const initMobileMenu = () => {
   }
 
 }
+
+const initCookiePolicy = () => {
+
+  initAcceptButton();
+
+  const expirationTs = Cookies.get(COOKIE_NAME);
+  const nowTs = Date.now();
+
+  if (!expirationTs || nowTs > parseInt(expirationTs)) {
+    document.getElementById('cookie-policy').classList.add('active');
+  }
+}
+
+const initAcceptButton = () => {
+
+  const nowTs = Date.now();
+  const accept = document.getElementById('accept-cookies')
+  
+  accept.addEventListener('click', () => {
+    Cookies.set(COOKIE_NAME, nowTs + COOKIE_EXPIRATION_TIME);
+    document.getElementById('cookie-policy').classList.remove('active');
+  });
+}
+
