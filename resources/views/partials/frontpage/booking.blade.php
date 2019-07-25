@@ -1,6 +1,6 @@
 <section id="bokning" class="bg-blue-lightest mb-0">
   <div class="container pb-8">
-    <div class="w-full lg:w-4/5 py-12 sm:py-20 lg:py-24">
+    <div class="w-full lg:w-4/5 pb-0 pt-12 sm:py-20 lg:py-24">
       <div class="flex items-center justify-between mb-8 sm:mb-12">
         <div class="flex items-center">
           <span class="fh-dash-y"></span>
