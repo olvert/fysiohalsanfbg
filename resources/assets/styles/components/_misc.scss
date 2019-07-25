@@ -54,6 +54,16 @@
   height: 100%;
 }
 
-.aspect-ratio-16x9 {
-  padding-bottom: 56.25%;
+@responsive {
+  .aspect-ratio-16x9 {
+    padding-bottom: 56.25%;
+  }
+
+  .aspect-ratio-9x16 {
+    padding-bottom: 177%;
+  }
+
+  .aspect-ratio-3x4 {
+    padding-bottom: 133%;
+  }
 }
