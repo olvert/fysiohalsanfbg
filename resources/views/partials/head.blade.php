@@ -8,4 +8,6 @@
   @include('partials.meta-tags')
 
   @php wp_head() @endphp
+
+  @include('partials.ga', [])
 </head>

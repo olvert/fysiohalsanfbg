@@ -38,4 +38,8 @@ class App extends Controller
     public static function metaTags() {
         return get_field('meta_tags', 'option');
     }
+
+    public static function analytics() {
+        return get_field('google_analytics', 'option');
+    }
 }
