@@ -34,4 +34,8 @@ class App extends Controller
     public static function cookiePolicy() {
         return get_field('cookie_policy', 'option');
     }
+
+    public static function metaTags() {
+        return get_field('meta_tags', 'option');
+    }
 }
