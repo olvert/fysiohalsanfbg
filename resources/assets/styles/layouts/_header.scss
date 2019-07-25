@@ -26,7 +26,11 @@
       @apply px-4 py-2;
 
       a {
-        @apply inline-block border-none no-underline tracking-wide text-3xl text-blue border-solid border-b-4 border-transparent;
+        @apply inline-block border-none no-underline tracking-wide text-xl text-blue border-solid border-b-4 border-transparent;
+
+        @screen sm {
+          @apply text-3xl;
+        }
 
         &:hover {
           @apply border-blue;
@@ -38,7 +42,11 @@
   }
 
   button {
-    @apply tracking-wide text-xl text-blue border-solid border-b-4 border-transparent outline-none;
+    @apply tracking-wide text-base text-blue border-solid border-b-4 border-transparent outline-none;
+
+    @screen sm {
+      @apply text-xl;
+    }
 
     &:hover {
       @apply border-blue;

@@ -1,22 +1,4 @@
 .frontpage {
-  .fh-jumbo,
-  .fh-about {
-    /*
-    height: 45rem;
-    max-height: 85vh;
-    */
-
-    .fh-img {
-      padding-bottom: 56%;
-    }
-  }
-
-  .fh-fullwidth-img {
-    .fh-img {
-      padding-bottom: 45%;
-    }
-  }
-
   #back-caret {
     transform: translateY(100%);
     opacity: 0;
